@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Shree swami samarth"
+                echo "My first jenkinsfile"
                 sh 'echo using shell within jenkinsfile'
                 echo 'not using shell in the jenkinsfile'
                 
