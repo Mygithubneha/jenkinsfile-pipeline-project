@@ -4,7 +4,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo "My first jenkinsfile"
-                sh 'echo Integrating jenkins pipeline job with github webhook using jenkinsfile'
+                sh 'python --version'
+                sh 'python pipeline.py'
                 
                 
             }
