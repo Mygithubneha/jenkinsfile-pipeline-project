@@ -3,10 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "My first jenkinsfile"
-                sh 'python --version'
-                sh 'python pipeline.py'
-                
+                echo "Shree swami samarth"
+                sh 'echo using shell within jenkinsfile'
+                echo 'not using shell in the jenkinsfile'
                 
             }
         }
