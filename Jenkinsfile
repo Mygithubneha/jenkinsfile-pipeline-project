@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Shree swami samarth"
-                sh 'echo using shell within jenkinsfile'
-                echo 'not using shell in the jenkinsfile'
+                echo "My first jenkinsfile"
+                sh 'echo Integrating jenkins pipeline with github webhook using jenkinsfile'
+                
                 
             }
         }
